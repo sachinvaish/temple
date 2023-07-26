@@ -1,9 +1,7 @@
 // import './globals.css'
-import { Inter } from 'next/font/google'
 import Header from './components/Header'
 import Slider from './components/Slider'
-
-const inter = Inter({ subsets: ['latin'] })
+import Script from 'next/script'
 
 export const metadata = {
   title: 'Create Next App',
@@ -13,7 +11,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={inter.className}>
+      <body>
       <>
         <meta charSet="UTF-8" />
         <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
@@ -33,17 +31,17 @@ export default function RootLayout({ children }) {
         <Slider/>
         {children}
 
-        <script src="assets/js/jquery-3.6.0.min.js"></script>
-        <script src="assets/js/bootstrap.bundle.min.js"></script>
-        <script src="assets/js/waypoints.min.js"></script>
+        <Script src="assets/js/jquery-3.6.0.min.js"></Script>
+        <Script src="assets/js/bootstrap.bundle.min.js"></Script>
+        <Script src="assets/js/waypoints.min.js"></Script>
         {/* <Script src="assets/js/all.min.js"></Script> */}
-        <script src="assets/js/swiper.min.js"></script>
-        <script src="assets/js/lightcase.js"></script>
-        <script src="assets/js/isotope.pkgd.min.js"></script>
-        <script src="assets/js/donate-range.js"></script>
-        <script src="assets/js/jquery.counterup.min.js"></script>
-        <script src="assets/js/wow.js"></script>
-        <script src="assets/js/custom.js"></script>
+        <Script src="assets/js/swiper.min.js"></Script>
+        <Script src="assets/js/lightcase.js"></Script>
+        <Script src="assets/js/isotope.pkgd.min.js"></Script>
+        {/* <Script src="assets/js/donate-range.js"></Script> */}
+        <Script src="assets/js/jquery.counterup.min.js"></Script>
+        <Script src="assets/js/wow.js"></Script>
+        <Script src="assets/js/custom.js"></Script>
         </body>
     </html>
   )
