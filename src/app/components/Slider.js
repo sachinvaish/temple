@@ -2,12 +2,12 @@ import React from 'react'
 
 export default function Slider() {
   return (
-    <div className="banner__slider banner-style3 overflow-hidden">
-        <div className="swiper-wrapper">
-            <div className="swiper-slide">
+    <div className="banner__slider banner-style3 overflow-hidden" >
+        <div className="swiper-wrapper" >
+            <div className="swiper-slide" >
             <div
                 className="banner"
-                style={{ backgroundImage: "url(assets/images/banner/07.jpg)" }}
+                style={{ backgroundImage: "url(assets/images/banner/07.jpg)"  }}
             >
                 <div className="container">
                 <div className="banner__content ms-lg-auto">

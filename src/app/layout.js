@@ -1,4 +1,6 @@
 // import './globals.css'
+import AboutSection from './components/AboutSection'
+import Gallery from './components/Gallery'
 import Header from './components/Header'
 import Slider from './components/Slider'
 import Script from 'next/script'
@@ -11,7 +13,6 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body>
       <>
         <meta charSet="UTF-8" />
         <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
@@ -26,9 +27,12 @@ export default function RootLayout({ children }) {
         {/* main css for template */}
         <link rel="stylesheet" href="assets/css/style.css" />
       </>
+      <body>
 
         <Header/>
         <Slider/>
+        <AboutSection/>
+        <Gallery/>
         {children}
 
         <Script src="assets/js/jquery-3.6.0.min.js"></Script>
