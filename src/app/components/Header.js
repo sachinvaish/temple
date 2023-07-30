@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import React from 'react'
 
 export default function Header() {
@@ -110,73 +111,25 @@ export default function Header() {
                 <div className="collapse navbar-collapse" id="menubar">
                     <ul>
                     <li className="active">
-                        <a href="#0">Home</a>
-                        <ul>
-                        <li>
-                            <a href="index.html">Home Page Christian</a>
-                        </li>
-                        <li>
-                            <a href="index-2.html">Home Page Muslim</a>
-                        </li>
-                        <li>
-                            <a href="index-3.html" className="active">
-                            Home Page Hindu
-                            </a>
-                        </li>
-                        </ul>
+                        <a href="#0">Home</a> 
                     </li>
                     <li>
-                        <a href="#0">Events</a>
-                        <ul>
-                        <li>
-                            <a href="event.html">Event Two Column</a>
-                        </li>
-                        <li>
-                            <a href="event-2.html">Event Three Column</a>
-                        </li>
-                        <li>
-                            <a href="event-single.html">Event Single</a>
-                        </li>
-                        </ul>
+                        <Link href="#about-section">About</Link> 
                     </li>
                     <li>
-                        <a href="#0">Causes</a>
-                        <ul>
-                        <li>
-                            <a href="cause.html">Cause Two Column</a>
-                        </li>
-                        <li>
-                            <a href="cause-single.html">Cause Single</a>
-                        </li>
-                        </ul>
+                        <a href="#0">Live</a> 
                     </li>
                     <li>
-                        <a href="#0">Gallery</a>
-                        <ul>
-                        <li>
-                            <a href="gallery.html">Gallery Default</a>
-                        </li>
-                        <li>
-                            <a href="gallery-2.html">Gallery 4 Columns</a>
-                        </li>
-                        <li>
-                            <a href="gallery-3.html">Gallery 6 Columns</a>
-                        </li>
-                        </ul>
+                        <a href="#0">Music Videos</a> 
                     </li>
                     <li>
-                        <a href="#0">Sermons</a>
-                        <ul>
-                        <li>
-                            <a href="sermon.html">Sermons 2 Columns</a>
-                        </li>
-                        <li>
-                            <a href="sermon-single.html">Sermons Single</a>
-                        </li>
-                        </ul>
+                        <a href="#0">Gallery</a> 
                     </li>
                     <li>
-                        <a href="#0">Blog</a>
+                        <a href="#0">Bookings</a> 
+                    </li>
+                    {/* <li>
+                        <a href="#0">Sewadaars</a>
                         <ul>
                         <li>
                             <a href="blog.html">Blog Default</a>
@@ -205,7 +158,7 @@ export default function Header() {
                             <a href="check-out.html">Check Out Page</a>
                         </li>
                         </ul>
-                    </li>
+                    </li> */}
                     <li>
                         <a href="contact.html">Contact Us</a>
                     </li>

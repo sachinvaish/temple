@@ -1,7 +1,12 @@
 // import './globals.css'
 import AboutSection from './components/AboutSection'
+import Contact from './components/Contact'
+import Events from './components/Events'
+import Footer from './components/Footer'
 import Gallery from './components/Gallery'
 import Header from './components/Header'
+import Location from './components/Location'
+import ScrollToTop from './components/ScrollToTop'
 import Slider from './components/Slider'
 import Script from 'next/script'
 
@@ -17,7 +22,7 @@ export default function RootLayout({ children }) {
         <meta charSet="UTF-8" />
         <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>PrayerZon</title>
+        <title>Goga Maadi - Rupomajra</title>
         <link rel="shortcut icon" href="assets/css/favicon.png" type="image/x-icon" />
         <link rel="stylesheet" href="assets/css/animate.css" />
         <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
@@ -33,6 +38,11 @@ export default function RootLayout({ children }) {
         <Slider/>
         <AboutSection/>
         <Gallery/>
+        <Events/>
+        <Contact/>
+        <Location/>
+        <Footer/>
+        <ScrollToTop/>
         {children}
 
         <Script src="assets/js/jquery-3.6.0.min.js"></Script>

@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function AboutSection() {
   return (
-    <div className="about padding--top padding--bottom">
+    <div className="about padding--top padding--bottom"  id='about-section'> 
   <div className="container">
     <div className="row g-4">
       <div className="col-lg-4 col-12">
