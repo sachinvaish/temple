@@ -1,11 +1,11 @@
-import React from "react";
+import React from 'react';
 
-export default function Contact() {
+export default function page() {
   return (
-    <div id='contact' className="contact padding--top padding--bottom bg-light">
+      <div className="contact padding--top padding--bottom bg-light">
       <div className="container">
         <div className="section__header text-center">
-          <h2>Contact Us</h2>
+          <h2>Book An Event with us</h2>
           <p>
             Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin,
             lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis

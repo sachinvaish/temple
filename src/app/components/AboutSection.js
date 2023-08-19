@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import React from 'react';
 
 export default function AboutSection() {
@@ -17,6 +18,9 @@ export default function AboutSection() {
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam dolores id illo commodi, sint illum ullam ut maxime cumque doloremque, voluptates repellendus a corrupti animi quia incidunt fugiat nobis earum, ipsam nisi. Dolorum, quas. Eos optio eius at dicta delectus laboriosam molestiae necessitatibus doloremque aperiam asperiores omnis maiores accusantium iusto, unde hic a consequuntur fugiat, totam, soluta rem obcaecati sequi earum. Reiciendis rerum voluptatibus eum? Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea similique consequatur nemo velit explicabo molestias sequi neque eaque deserunt! Dolores, aperiam dolorum magni eius quibusdam dolorem beatae veritatis, tenetur nisi, enim quasi vero aliquam ipsam? Soluta placeat aliquam laboriosam eaque neque ipsam magnam eos sunt.
             </p>
+            <Link href="/history" className="default-btn move-right">
+              <span>Know about our History</span>
+            </Link>
           </div> 
         </div>
       </div>

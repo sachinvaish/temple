@@ -1,7 +1,6 @@
-import Link from "next/link";
-import React from "react";
+import React from 'react';
 
-export default function Gallery() {
+export default function page() {
   return (
     <div id="gallery" className="gallery padding--top padding--bottom bg-light">
       <div className="container-fluid">
@@ -219,11 +218,6 @@ export default function Gallery() {
                 </div>
               </div>
             </div>
-          </div>
-          <div className="text-center mt-5">
-            <Link href="/gallery" className="default-btn move-right">
-              <span>View All</span>
-            </Link>
           </div>
         </div>
       </div>

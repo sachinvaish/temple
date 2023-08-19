@@ -111,22 +111,22 @@ export default function Header() {
                 <div className="collapse navbar-collapse" id="menubar">
                     <ul>
                     <li className="active">
-                        <a href="#0">Home</a> 
+                        <Link href="/">Home</Link> 
                     </li>
                     <li>
-                        <Link href="#about-section">About</Link> 
+                        <Link href="/history">Our History</Link> 
                     </li>
                     <li>
-                        <a href="#0">Live</a> 
+                        <Link href="#0">Live</Link> 
                     </li>
                     <li>
-                        <a href="#0">Music Videos</a> 
+                        <Link href="#0">Music Videos</Link> 
                     </li>
                     <li>
-                        <a href="#0">Gallery</a> 
+                        <Link href="/#gallery">Gallery</Link> 
                     </li>
                     <li>
-                        <a href="#0">Bookings</a> 
+                        <Link href="/booking">Bookings</Link> 
                     </li>
                     {/* <li>
                         <a href="#0">Sewadaars</a>
@@ -160,14 +160,14 @@ export default function Header() {
                         </ul>
                     </li> */}
                     <li>
-                        <a href="contact.html">Contact Us</a>
+                        <Link href="/#contact">Contact Us</Link>
                     </li>
                     </ul>
-                    <a href="cause-single.html" className="default-btn">
+                    <Link href="cause-single.html" className="default-btn">
                     <span>
                         Donate Now <i className="fas fa-heart" />
                     </span>
-                    </a>
+                    </Link>
                 </div>
                 </div>
             </div>

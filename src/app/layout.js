@@ -35,15 +35,9 @@ export default function RootLayout({ children }) {
       <body>
 
         <Header/>
-        <Slider/>
-        <AboutSection/>
-        <Gallery/>
-        <Events/>
-        <Contact/>
-        <Location/>
+        {children}
         <Footer/>
         <ScrollToTop/>
-        {children}
 
         <Script src="assets/js/jquery-3.6.0.min.js"></Script>
         <Script src="assets/js/bootstrap.bundle.min.js"></Script>
